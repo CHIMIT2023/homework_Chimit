@@ -1,0 +1,64 @@
+@media screen and (max-width: 1440px) {
+  .container{
+    min-width: auto;
+    display: block;
+  }
+  .card{
+    width: auto;
+  }
+  main {
+    padding: 40px;
+  }
+
+  aside {
+    padding: 20px;
+  }
+}
+main {
+  display: inline-block;
+  width: 70%;
+}
+aside {
+  display: inline-block;
+  width: 30%;
+}
+
+@media screen and (max-width: 450px) {
+  .card{
+    box-shadow: none;
+  }
+  main {
+    width: 100%;
+  }
+  aside {
+    width: 100%;
+  }
+}
+
+  @media screen and (max-width: 450px) {
+    grid-itm {
+      flex: 0 1 100%;
+    }
+    body{
+        background-color: aqua;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    main {
+      width: 100%;
+    }
+    aside {
+      width: 100%;
+    }
+  }@media screen and (max-width: 1440px) {
+    main {
+      width: 960px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    main {
+      width: 420px;
+    }
+  }
